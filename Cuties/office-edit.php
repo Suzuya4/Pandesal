@@ -157,6 +157,7 @@
                                            
                                         </div>
                                             <button type="submit" name="submit" value="Submit" class="btn btn-info btn-fill pull-right">Update</button>
+                                            <div class="clearfix"></div>
                                     </form>
                                 </div>
                             </div>
