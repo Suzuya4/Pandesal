@@ -123,9 +123,10 @@
                                             </div>
                                            
                                         </div>
-                                        
+                                        <a href="/office.php">
                                         <button type="submit" name="submit" value="Submit" class="btn btn-info btn-fill pull-right">Save</button>
                                         <div class="clearfix"></div>
+                                        </a>
                                     </form>
                                 </div>
                             </div>

@@ -99,7 +99,7 @@
                                             <th>First name</th>
                                             <th>Address</th>
                                             <th>Office</th>
-                                            <th>Action</th>
+                                            
                                         </thead>
                                         <tbody>
                                             <?php foreach($employees as $employee) : ?>
@@ -110,8 +110,13 @@
                                                 <td><?php echo $employee['office_name']; ?></td>
                                                 <td>
                                                     <a href="/employee-edit.php?id=<?php echo $employee['id']; ?>">
-                                                        <button type="Submit" clas="btn btn-warning btn-fill pull-right">Edit</button>
+                                                        <button type="Submit" class="btn btn-warning btn-fill pull-right">Edit</button>
                                                     </a>
+                                                </td>
+                                                <td>
+                                                    <a href="/employee-delete.php?id=<?php echo $employee['id']; ?>">
+                                                    <button type="Submit" class="btn btn-warning btn-fill pull-right">Delete</button>
+                                                </a>
                                                 </td>
                                             </tr>
                                             <?php endforeach ?>

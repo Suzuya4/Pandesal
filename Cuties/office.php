@@ -101,7 +101,6 @@
                                             <th>City</th>
                                             <th>Country</th>
                                             <th>Postal</th>
-                                            <th>Action</th>
                                         </thead>
                                         <tbody>
                                             <?php foreach($offices as $office) : ?>
@@ -115,8 +114,13 @@
                                                 <td><?php echo $office['postal']; ?></td>
                                                 <td>
                                                     <a href="/office-edit.php?id=<?php echo $office['id']; ?>">
-                                                        <button type="Submit" clas="btn btn-warning btn-fill pull-right">Edit</button>
+                                                        <button type="Submit" class="btn btn-warning btn-fill pull-right">Edit</button>
                                                     </a>
+                                                </td>
+                                                <td>
+                                                    <a href="/office-delete.php?id=<?php echo $office['id']; ?>">
+                                                    <button type="Submit" class="btn btn-warning btn-fill pull-right">Delete</button>
+                                                </a>
                                                 </td>
                                             </tr>
                                             <?php endforeach ?>

@@ -115,8 +115,8 @@
                                         <thead>
                                             <th>Datelog</th>
                                             <th>Document Code</th>
-                                            <th>Action</th>
                                             <th>Office</th>
+                                            <th>Action</th>
                                             <th>Employee</th>
                                             <th>Remarks</th>
                                         </thead>
