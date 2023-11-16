@@ -84,7 +84,7 @@
                             <div class="card strpied-tabled-with-hover">
                                 </br>
                                 <div class="col-md-12">
-                                    <a href="/office-add.php">
+                                    <a href="office-add.php">
                                     <button type="submit" class="btn btn-info bin-fill pull-right">Add New Office</button>
                                 </div>
                                 <div class="card-header ">
